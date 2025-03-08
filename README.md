@@ -60,10 +60,10 @@ The Decentralized Voting System using Ethereum Blockchain is a secure and transp
 4. **Install [Metamask](https://metamask.io/download/)** in your browser and import the Ganache accounts into Metamask.
 
 5. **Add a network** to Metamask:
-   - Network Name: `Localhost 7575`
-   - RPC URL: `http://localhost:7545`
-   - Chain ID: `1337`
-   - Currency Symbol: `ETH`
+   - **Network Name**: Localhost 7575  
+   - **RPC URL**: http://localhost:7545  
+   - **Chain ID**: 1337  
+   - **Currency Symbol**: ETH  
 
 6. **Create a MySQL database** named `voter_db` (avoid using XAMPP). Inside this database, create a table `voters`:
     ```sql
@@ -96,7 +96,6 @@ The Decentralized Voting System using Ethereum Blockchain is a secure and transp
 > **Note**: Update the **database credentials** in `./Database_API/.env` with your MySQL username, password, etc.
 
 1. **Open Ganache** and select the `development` workspace.
-
 2. **Open a terminal** in the project directory and enter the Truffle console:
     ```sh
     truffle console
@@ -127,7 +126,7 @@ The Decentralized Voting System using Ethereum Blockchain is a secure and transp
     ```sh
     truffle migrate
     ```
-9. **Access the Voting app** at `http://localhost:8080/`.
+9. **Access the Voting app** at **http://localhost:8080/**.
 
 ---
 
@@ -171,10 +170,13 @@ blockchain-voting-dapp/
 ├── package-lock.json
 ├── truffle-config.js
 └── README.md
+License
+This project is licensed under the MIT License.
 
----
-## License
+Star the Project
+⭐ If you like this project, please give it a star!
 
-This project is licensed under the [MIT License](LICENSE).
 
-> **⭐ If you like this project, please give it a star!**
+
+
+
