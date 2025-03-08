@@ -170,10 +170,11 @@ blockchain-voting-dapp/
 ├── package-lock.json
 ├── truffle-config.js
 └── README.md
-License
+ ```
+## License
 This project is licensed under the MIT License.
 
-Star the Project
+## Star the Project
 ⭐ If you like this project, please give it a star!
 
 
